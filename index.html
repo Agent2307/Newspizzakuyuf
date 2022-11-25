@@ -6,7 +6,6 @@
         <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
-        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </head>
@@ -21,7 +20,7 @@
             embedded
             gesture-detector
         >
-            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+            
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
@@ -48,7 +47,7 @@
                     gesture-handler
                 ></a-entity>
             </a-marker>
-
+            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
             <a-entity camera></a-entity>
         </a-scene>
         <button class="Hotspot" slot="hotspot-1" data-position="0.03775318985059595m 0.10679517168949704m 0.00010212748048349374m" data-normal="-0.23230021880321805m 0.7284520582913675m 0.644510827771766m" data-visibility-attribute="visible">
